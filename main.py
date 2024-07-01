@@ -11,6 +11,9 @@ def main():
     # Do not delete the return statement
     ########################################
     """
+    celsius = float(input("Enter the tempature in Celsius:"))
+    fahrenheit = (9/5)*celsius +32
+    print(f"Fahrenheit: {fahrenheit:.2f}")
     return celsius, fahrenheit
 
 
